@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto";
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.logo_OMF {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+form {
+    width: 100%;
+    background-color: #e7e7e7;
+    padding: 15px 0 15px 0;
+    box-shadow: inset 0 8px 8px -3px #c6c6c6
+     
+}
+
+.searchbar {
+    border: none;
+    background-color: #e7e7e7;
+    width: 35%;
+}
+
+.searchbar::placeholder {
+    opacity: 0.8;	
+    color: black;
+    text-align: center;
+  }
+
+.searchbar:focus {
+	outline: none;
+}
+
+.text_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 30px 0 50px 0;
+    background-color: #f2f2f2;
+}
+
+.text_header h2 {
+    margin: 0;
+    width: 70%;
+}
+
+.text_header p {
+    width: 90%;
+    padding-bottom: 15px;
+}
+
+.text_header a {
+    color: #ffffff;
+    border: none;
+    padding: 18px 30px 18px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    background: linear-gradient(#FF79DA, #9356DC);
+    box-shadow: 0 5px 5px 5px #e7e7e7;
+}
+
+.text_header a:hover {
+    opacity: 0.7;
+  }
+
+.working_section {
+    margin-bottom: 50px;
+}  
+
+.working_section h2 {
+    margin: auto;
+    padding-bottom: 10px;
+    width: 90%;
+}
+
+.working_list {
+    padding: 0%;
+}
+
+.working_list li {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    padding: 8px 0 8px 0;
+    width: 85%;
+    background-color: #f2f2f2;
+    box-shadow: 0 5px 5px 5px #e7e7e7;
+    cursor: pointer;
+}
+
+.working_number {
+    position: absolute;
+    left: -11px;
+    border-radius: 100%;
+    padding: 3px 8px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #9356DC;
+}
+
+.working_list .fa-solid {
+	margin: 0 20px 0 30px;
+	text-decoration: none;
+	color: #808080;
+    font-size: 20px;
+}
+
+.working_list p {
+    font-weight: 500;
+}
+
+.working_list li:hover {
+    transition: 500ms;
+    background-color: #D2CAEC;
+}
+
+.working_list li:focus {
+    transition: 500ms;
+    background-color: #D2CAEC;
+}
+
+.working_list li:hover i.fa-solid {
+    color: #9356DC;
+}
