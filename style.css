@@ -127,12 +127,12 @@ form {
 
 .working_list li:hover {
     transition: 500ms;
-    background-color: #D2CAEC;
+    background-color: #F5EDFF;
 }
 
 .working_list li:focus {
     transition: 500ms;
-    background-color: #D2CAEC;
+    background-color: #F5EDFF;
 }
 
 .working_list li:hover i.fa-solid {
