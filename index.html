@@ -13,9 +13,11 @@
     <body>
         <header>
                 <a href="index.html">
-                    <img src="img/ohmyfood.png" class="logo_OMF" alt="logo du site Ohmyfood">
+                    <picture>
+                        <source srcset="img/ohmyfood@2x.svg" media="(min-width: 992px)">
+                        <img src="img/ohmyfood.png" alt="Logo du site Ohmyfood" class="logo_OMF">
+                    </picture>
                 </a> 
-
             <form>
                 <i class="fa-solid fa-location-dot localisation"></i>
                 <input type="search" class="searchbar" name="lieu" placeholder="Paris, Belleville">
@@ -64,8 +66,10 @@
                             <p>Ménilmontant</p>
                             <div class="new">Nouveau</div>
                         </a>
-                        <i class="fa-regular fa-heart empty-heart"></i>
-                        <i class="fa-regular fa-heart full-heart"></i>   
+                        <button class="button_heart">
+                            <i class="fa-regular fa-heart empty-heart"></i>
+                            <i class="fa-regular fa-heart full-heart"></i> 
+                        </button>  
                     </figcaption>    
                 </figure>
 
@@ -79,8 +83,10 @@
                             <p>Charonne</p>
                         <div class="new">Nouveau</div>
                         </a>
-                        <i class="fa-regular fa-heart empty-heart"></i>
-                        <i class="fa-regular fa-heart full-heart"></i>
+                        <button class="button_heart">
+                            <i class="fa-regular fa-heart empty-heart"></i>
+                            <i class="fa-regular fa-heart full-heart"></i>
+                        </button>    
                     </figcaption>
                 </figure>
 
@@ -93,8 +99,10 @@
                             <h3>À la française</h3>
                             <p>Cité Rouge</p>
                         </a>
-                        <i class="fa-regular fa-heart empty-heart"></i>
-                        <i class="fa-regular fa-heart full-heart"></i>
+                        <button class="button_heart">
+                            <i class="fa-regular fa-heart empty-heart"></i>
+                            <i class="fa-regular fa-heart full-heart"></i>
+                        </button>    
                     </figcaption>
                 </figure>
 
@@ -107,8 +115,10 @@
                             <h3>Le délice des sens</h3>
                             <p>Folie-Méricourt</p>
                         </a>
-                        <i class="fa-regular fa-heart empty-heart"></i>
-                        <i class="fa-regular fa-heart full-heart"></i>
+                        <button class="button_heart">
+                            <i class="fa-regular fa-heart empty-heart"></i>
+                            <i class="fa-regular fa-heart full-heart"></i>   
+                        </button>                       
                     </figcaption>
                 </figure>
             </article>
