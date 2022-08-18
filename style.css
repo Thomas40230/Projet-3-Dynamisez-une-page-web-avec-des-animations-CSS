@@ -345,6 +345,7 @@ footer li {
     margin-right: 50px;
     padding: 20px;
     font-family: 'shrikhand';
+    font-size: 27px;
 }
 
 .heart-menu {
@@ -378,13 +379,14 @@ footer li {
     padding-left: 20px;
     font-weight: normal;
     text-transform: uppercase;
+    font-size: 20px;
 }
 
 .div_menu h2::after {
     display: block;
     border-bottom: 3px solid #99E2D0;
     padding-top: 5px;
-    width: 60px;
+    width: 50px;
     font-size: 0;
     content: ".";
 }
