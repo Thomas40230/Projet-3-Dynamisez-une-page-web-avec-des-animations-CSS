@@ -18,6 +18,97 @@
     }
 }
 
+.spinner {
+    box-sizing:content-box;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+    animation: spinner-off 1s 3s ease forwards;
+    z-index: 999;
+}
+  
+.bouncer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top:150px;
+}
+
+.bounce {
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    animation: bounce 1s infinite linear; 
+}
+  
+.ball1{
+     background-color : #9356DC;
+     animation-delay: 0.1s;
+}
+  
+.ball2 {
+    background-color : #FF79DA;
+    animation-delay: 0.2s;
+}
+  
+.ball3 {
+    background-color : #99E2D0;
+    animation-delay: 0.3s;
+}
+  
+@keyframes bounce {
+    0% { transform: translate(0,-50%) scale(1,0.7); }
+    30% { transform: translate(0,-200%) scale(0.7,0.7); }
+    60% { transform: translate(0,-250%) scale(0.7,1); }
+    90% { transform: translate(0,-50%) scale(0.7,1); }
+    100% { transform: translate(0,-50%) scale(1,0.7); }
+}
+  
+.letter {
+    font-size: 40px;
+    font-family: "Shrikhand";
+    letter-spacing: 5px;
+    color: black;
+    animation: fill 3s linear infinite;
+}
+  
+@keyframes fill {
+    0% {
+        color :#000000;
+        text-shadow: 0px 0px 7px #000000;
+    }
+    
+    33% {
+        color :#9356DC;
+        text-shadow: 0px 0px 7px #9356DC;
+    }
+    
+    66% {
+        color :#FF79DA;
+        text-shadow: 0 0 7px #FF79DA;
+    }
+    
+    100% {
+        color :#99E2D0;
+        text-shadow: 0 0 970px #99E2D0;
+    }
+}
+    
+@keyframes spinner-off {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0);
+      opacity: 0;
+    }
+}
+
 
 
 * {
@@ -582,6 +673,14 @@ footer li {
 
     .searchbar {
         width: 10%;
+    }
+
+    .bounce {
+        width: 40px; height: 40px;
+    }   
+    
+    .letter {
+        font-size: 60px;
     }
 
     .div_menu {
