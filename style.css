@@ -396,7 +396,7 @@ footer li {
 
 .header_menu i {
     position: absolute;
-    top: 10px; 
+    top: 20px; 
     left: 20px;
     font-size: 25px;
 }
@@ -617,6 +617,14 @@ footer li {
 
 @media (min-width: 768px){
 
+    .header_menu i {
+        position: absolute;
+        top: 35px;
+        left: 30px;
+        font-size: 35px; 
+    }
+
+
     main article {
         display: flex;
         flex-direction: row;
@@ -661,6 +669,13 @@ footer li {
 
     .logo_OMF {
         width: 25%;
+    }
+
+    .header_menu i {
+        position: absolute;
+        top: 25px;
+        left: 35px;
+        font-size: 30px;
     }
 
     .searchbar {
@@ -728,5 +743,4 @@ footer li {
     footer h2 {
         font-size: 30px;
     }
-
 }
