@@ -182,12 +182,12 @@ form {
     border-radius: 30px;
     text-decoration: none;
     background: linear-gradient(#FF79DA, #9356DC);
-    box-shadow: 0 5px 5px 5px #e7e7e7;
+    box-shadow: 0 5px 5px 5px grey;
 }
 
 .text_header a:hover {
     opacity: 0.7;
-    box-shadow: 0 10px 10px 10px #e7e7e7;
+    box-shadow: 0 10px 10px 10px grey;
   }
 
 .working_section {
@@ -606,12 +606,12 @@ footer li {
     border-radius: 30px;
     text-decoration: none;
     background: linear-gradient(#FF79DA, #9356DC);
-    box-shadow: 0 5px 5px 5px #e7e7e7;
+    box-shadow: 0 5px 5px 5px grey;
 }
 
 .command a:hover {
     opacity: 0.7;
-    box-shadow: 0 10px 10px 10px #e7e7e7;
+    box-shadow: 0 10px 10px 10px grey;
 }
 
 
