@@ -706,8 +706,14 @@ footer li {
         padding-left: 35px;
     }
 
+    .div_menu h3 {
+        font-size: 13px;
+        width: 100%;
+    }
+
     .div_menu p {
-        font-size: 14px;
+        font-size: 11px;
+        width: 100%;
     }
 
     .section_menu {
